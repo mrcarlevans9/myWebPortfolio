@@ -11,23 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,600&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/622fa0937a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
   </head>
   <body>
     <section class="hero">
       <nav>
-        <div>Logo</div>
-        <ul>
+        <div class="logo">Logo</div>
+        <ul id="nav-list">
           <li><a href="#about-me"> About</a></li>
           <li><a href="#project"> Projects</a></li>
-          <li><a href="contact"> Contact</a></li>
+          <li><a href="#contact"> Contact</a></li>
         </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
           <h1>Carl Evans</h1>
           <p>Web Developer</p>
-          <div class="button">About Me</div>
+          <div class="button"><a href="#about-me"> About Me</a></div>
         </div>
         <div class="socialmedia">
           <div>
@@ -164,7 +171,10 @@
         </div>
       </div>
     </section>
-    <footer id="contact"></footer>
+    <footer id="contact">
+      <h2>Contact Me</h2>
+      <p>mrcarlevans9@gmail.com</p>
+    </footer>
 
     <script src="src/app.js"></script>
   </body>
