@@ -7,14 +7,14 @@ body {
 
 section{
    
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
     
 }
 
 .hero{
-    background-color:#1c1d25;
+    background-color:#14213D;
     height: 100vh;
-    color:whitesmoke;
+    color:#FFFFFF;
     font-size:40px;
 
     
@@ -43,6 +43,10 @@ ul{
 li{
     width:200px;
     text-decoration: none;
+}
+.nav-text:hover{
+    color:#FCA311;
+    transition:1.5s;
 }
 
 h1{
@@ -80,7 +84,7 @@ p{
     width: 200px;
     height: 55px;
     border-radius:30px;
-    background-color: coral;
+    background-color: #0A111F;
     text-align: center;
     font-size:30px;
     font-weight:300;
@@ -89,7 +93,8 @@ p{
 }
 
 .button:hover{
-    background-color: #ef744b;
+    background-color: #FCA311;
+    transition:1.5s;
 }
 .button:active{
     background-color: #A9A9A9;
@@ -102,6 +107,7 @@ p{
 .social{
     margin:20px;
 }
+
 .sub-section{
     display:flex;
     justify-content: space-around;
@@ -120,6 +126,12 @@ p{
 .headshot-container{
 display:flex;
 align-items: center;
+}
+@media only screen and (max-width:1000px){
+    .sub-section{
+        display:flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-card{
@@ -149,7 +161,7 @@ hr{
 }
 .project-link{
     text-decoration: none;
-    color:#ef744b;
+    color:#FCA311;
 }
 a{
     text-decoration: none;
